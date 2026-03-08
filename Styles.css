@@ -1,0 +1,74 @@
+body{
+font-family:Arial;
+background:linear-gradient(120deg,#74ebd5,#9face6);
+margin:0;
+text-align:center;
+}
+
+header{
+background:#2c3e50;
+color:white;
+padding:20px;
+}
+
+.container{
+background:white;
+width:350px;
+margin:40px auto;
+padding:25px;
+border-radius:10px;
+box-shadow:0 5px 15px rgba(0,0,0,0.3);
+}
+
+input{
+width:90%;
+padding:10px;
+margin:8px;
+border-radius:5px;
+border:1px solid #ccc;
+}
+
+button{
+padding:10px 20px;
+background:#27ae60;
+color:white;
+border:none;
+border-radius:5px;
+cursor:pointer;
+}
+
+button:hover{
+background:#219150;
+}
+
+.recordTitle{
+margin-top:40px;
+}
+
+table{
+width:80%;
+margin:20px auto;
+border-collapse:collapse;
+background:white;
+box-shadow:0 4px 10px rgba(0,0,0,0.2);
+}
+
+th{
+background:#34495e;
+color:white;
+padding:10px;
+}
+
+td{
+padding:10px;
+border:1px solid #ddd;
+}
+
+.deleteBtn{
+background:#e74c3c;
+padding:6px 12px;
+}
+
+.deleteBtn:hover{
+background:#c0392b;
+}
